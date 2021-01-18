@@ -31,6 +31,8 @@ public class E2E {
 	  Assert.assertEquals("Demo Web Shop",Actual_Title);
 	  
 	  
+	  // New Comment added to test Git
+	  
 	  driver.findElement(By.xpath("//a[@href='/login']")).click(); String title2
 	  =driver.getTitle(); Assert.assertEquals("Demo Web Shop. Login", title2);
 	  System.out.println("Url opened successfully"); }
