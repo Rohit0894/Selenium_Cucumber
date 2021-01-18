@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 15,
+        "name": "WebShop Loging in",
+        "description": "",
+        "id": "webshop-login;webshop-loging-in;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9962595300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is already on Login Page",
+            "match": {
+              "location": "StepDefinition.user_is_already_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 594526600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of Login page is WebShop Login",
+            "match": {
+              "location": "StepDefinition.title_of_Login_page_is_WebShop_Login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User Enters shettyash0902@gmail.com and Shetty",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "clicks on Login button",
+            "match": {
+              "location": "StepDefinition.clicks_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Demo Web Shop Title is displayed",
+            "match": {
+              "location": "StepDefinition.demo_Web_Shop_Title_is_displayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Browser is Closed",
+            "match": {
+              "location": "StepDefinition.Browser_is_Closed()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "WebShop Login",
+    "description": "",
+    "id": "webshop-login",
+    "keyword": "Feature",
+    "uri": "/Users/rohit.a.shetty/Accenture Eclipse Training/Cucumber/src/test/java/Feature/login.feature"
+  }
+]

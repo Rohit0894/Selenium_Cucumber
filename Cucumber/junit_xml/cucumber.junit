@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="10.557122">
+<testcase classname="WebShop Login" name="WebShop Loging in" time="10.557122">
+<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given User is already on Login Page.........................................passed
+When Title of Login page is WebShop Login...................................passed
+Then User Enters shettyash0902@gmail.com and Shetty.........................undefined
+And clicks on Login button..................................................skipped
+And Demo Web Shop Title is displayed........................................skipped
+And Browser is Closed.......................................................skipped
+]]></failure>
+</testcase>
+</testsuite>
